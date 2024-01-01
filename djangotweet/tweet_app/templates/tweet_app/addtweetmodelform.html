@@ -2,12 +2,12 @@
 {% load static%}
 
 {% block content%}
-<h1>Add Tweet App by Form</h1>
-<div class="container tweet_app">
+<h1>Add Tweet App Model Form</h1>
+
   <form action="" method="POST">
    {% csrf_token %}
     {{form}}
     <button type="submit" class="btn btn-primary">Send Tweet</button>
   </form>
-</div>
+
 {%endblock%}
